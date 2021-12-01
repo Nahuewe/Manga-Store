@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+    color: #c40b0b;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 70%;
+    min-width: 250px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h1 a{
+    color: #ff0000;
+    text-transform: uppercase;
+}
+
+/* Navbar */
+
+nav{
+    background-color: #0000ff;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 6%;
+    height: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-size: 80%;
+    min-width: 250px;
+}
+
+nav ul li :hover{
+    color: #ffa500;
+}
+
+nav ul li :active{
+    color: #ee82ee;
+}
+
+nav ul li a {
+    color: #ffffff;
+}
+
+/* Termian Navbar */
+
+/* Productos */
+
+.productos--arriba {
+    background-color: rgb(128, 11, 11);
+}
+
+.productos--arriba ul li {
+    display: inline-block;
+    margin: 1% 4% 2% 6%;
+    box-shadow: 4px 5px 13px 1px #000000;
+    background-color: #ff0000;
+    min-width: 150px;
+}
+
+.productos--medio {
+    background-color:#157a15 ;
+}
+.productos--medio ul li {
+    display: inline-block;
+    margin: 1% 4% 2% 6%;
+    box-shadow: 4px 5px 13px 1px #000000;
+    background-color: #00ff00;
+}
+
+.productos--abajo {
+    background-color: #141461;
+}
+
+.productos--abajo ul li {
+    display: inline-block;
+    margin: 1% 4% 2% 6%;
+    box-shadow: 4px 5px 13px 1px #000000;
+    background-color: #0000ff;
+}
+
+article img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+article img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* Termina Productos */
+
+/* Destacados y Novedades */
+
+.borde__cositas {
+    background-color: white;
+}
+
+/* Termina Destacados y Novedades */
+
+/* Contacto(s) */
+
+.contact {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 0 #999999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(59,55,150,1) 55%);
+    background-attachment: fixed;
+}
+.contact__body {
+    background-color: #efefef;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 25px;
+}
+.contact__body--cuenta {
+    background-color: #858ae3;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 40px;
+    color: black;
+}
+.boton__creaCuenta {
+    border-radius: 20px;
+    color: #000000;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #c0fdff;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    width: 101%;
+}
+.contact__body--sesion {
+    background-color: #7f29ca;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 40px;
+    color: #ffffff;
+}
+.boton__iniciarSesion {
+    border-radius: 20px;
+    color: #ffffff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #000000;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    width: 101%;
+}
+.input {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777777;
+    border-radius: 14px;
+    outline: none;
+}
+.text__area textarea{
+    height: 150px;
+    padding-top: 10px;
+}
+.boton {
+    border-radius: 20px;
+    color: #ffffff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #d291bc;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    width: 22%;
+}
+#contacto {
+    cursor: pointer;
+    font-family: 'Gideon Roman', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Termina Contacto(s) */
+
+/* Venta */
+
+.venta {
+    text-transform: uppercase;
+    background-color: #00f7ff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto 1% auto;
+    padding: 1%;
+    color: #000000;
+}
+.venta__boton {
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    color: #008000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.venta__boton:hover {
+    color: red;
+}
+
+/* Termina Venta */
+
+/* Footer */
+
+footer {
+    background-color: #00ffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer h2{
+    font-size: 140%;
+    text-align: center;
+}
+
+.iconos {
+    list-style: none;
+    display: inline;
+    padding-left: 100px;
+}
+
+/* Termina Footer */
