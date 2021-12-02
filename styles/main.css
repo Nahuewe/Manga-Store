@@ -219,14 +219,16 @@ article img:hover {
 .venta__boton {
     display: flex;
     justify-content: center;
+    padding: 5px;
     border-radius: 40px;
     color: #008000;
     text-decoration: none;
     cursor: pointer;
+    list-style: none;
 }
 
 .venta__boton:hover {
-    color: red;
+    color: #ff0000
 }
 
 /* Termina Venta */
