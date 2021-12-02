@@ -32,12 +32,11 @@ nav ul li {
     list-style: none;
     text-decoration: none;
     color: #ffffff;
-    margin: 6%;
+    margin: 5%;
     height: 70px;
     line-height: 70px;
     text-transform: uppercase;
     font-size: 80%;
-    min-width: 250px;
 }
 
 nav ul li :hover{
@@ -69,13 +68,13 @@ nav ul li a {
 }
 
 .productos--medio {
-    background-color:#157a15 ;
+    background-color:#034e03 ;
 }
 .productos--medio ul li {
     display: inline-block;
     margin: 1% 4% 2% 6%;
     box-shadow: 4px 5px 13px 1px #000000;
-    background-color: #00ff00;
+    background-color: #00a100;
 }
 
 .productos--abajo {
@@ -90,9 +89,8 @@ nav ul li a {
 }
 
 article img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
+    border: 2px solid #ddd;
+    padding: 4px;
     width: 150px;
 }
 
@@ -104,8 +102,12 @@ article img:hover {
 
 /* Destacados y Novedades */
 
-.borde__cositas {
-    background-color: white;
+.borde__articulos {
+    background-color: rgb(204, 118, 118); /* color de prueba */
+}
+
+.borde__articulos h1 {
+    text-align: center;
 }
 
 /* Termina Destacados y Novedades */
@@ -115,36 +117,37 @@ article img:hover {
 .contact {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 70%;
     background-color: #ffffff;
-    box-shadow: 0 0 20px 0 #999999;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(59,55,150,1) 55%);
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(168,42,42,1) 51%);
     background-attachment: fixed;
+    background-image: url(https://media.discordapp.net/attachments/752393296520806500/915740345608855552/fondo-patron-textura-fibra-carbono-negro_1017-33436.jpg);
 }
 .contact__body {
     background-color: #efefef;
     font-family: sans-serif;
     margin: 0;
-    padding: 25px;
+    padding: 15px;
 }
 .contact__body--cuenta {
-    background-color: #858ae3;
+    background-color: #837f7f2c;
     font-family: sans-serif;
     margin: 0;
-    padding: 40px;
-    color: black;
+    padding: 30px;
+    color: #ffffff;
+    text-align: center;
 }
 .boton__creaCuenta {
     border-radius: 20px;
     color: #000000;
     margin-top: 18px;
     padding: 10px;
-    background-color: #c0fdff;
+    background-color: #ffc0c0;
     font-size: 12px;
     border: none;
     cursor: pointer;
@@ -154,8 +157,9 @@ article img:hover {
     background-color: #7f29ca;
     font-family: sans-serif;
     margin: 0px;
-    padding: 40px;
+    padding: 30px;
     color: #ffffff;
+    text-align: center;
 }
 .boton__iniciarSesion {
     border-radius: 20px;
@@ -170,12 +174,12 @@ article img:hover {
 }
 .input {
     width: 100%;
-    height: 40px;
-    margin-top: 20px;
+    height: 35px;
+    margin-top: 10px;
     padding-left: 10px;
-    border: 1px solid #777777;
-    border-radius: 14px;
+    border-radius: 20px;
     outline: none;
+    border: 1px solid red;
 }
 .text__area textarea{
     height: 150px;
@@ -184,18 +188,18 @@ article img:hover {
 .boton {
     border-radius: 20px;
     color: #ffffff;
-    margin-top: 18px;
+    margin-top: 12px;
     padding: 10px;
-    background-color: #d291bc;
+    background-color: #227017;
     font-size: 12px;
     border: none;
     cursor: pointer;
-    width: 22%;
+    width: 100%;
 }
 #contacto {
-    cursor: pointer;
-    font-family: 'Gideon Roman', cursive;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 /* Termina Contacto(s) */
