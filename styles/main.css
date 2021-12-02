@@ -102,12 +102,17 @@ article img:hover {
 
 /* Destacados y Novedades */
 
-.borde__articulos {
-    background-color: rgb(204, 118, 118); /* color de prueba */
+.articulos {
+    background-color: #faebd7; /* color de prueba */
 }
 
-.borde__articulos h1 {
+.articulos h2 {
     text-align: center;
+}
+
+.articulos p {
+    text-align: justify;
+    margin: 2px;
 }
 
 /* Termina Destacados y Novedades */
@@ -245,10 +250,10 @@ footer h2{
     text-align: center;
 }
 
-.iconos {
+/* .iconos {
     list-style: none;
     display: inline;
     padding-left: 100px;
-}
+} */
 
 /* Termina Footer */
