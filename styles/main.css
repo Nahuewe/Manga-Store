@@ -285,10 +285,6 @@ article img:hover, article img:focus, article img:active {
     background-color: #faebd7;
 }
 
-.producto__venta {
-    
-}
-
 .boton__venta {
     border-radius: 4px;
     cursor: pointer;
