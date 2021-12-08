@@ -1,7 +1,9 @@
+
+
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 
 header{
@@ -121,7 +123,7 @@ nav ul {
     flex-wrap: wrap;
     justify-content: space-evenly;
     list-style: none;
-    background-color: #0000ff;
+    background-color: #00ff80;
 }
 
 .productos--abajo ul li {
@@ -311,20 +313,51 @@ article img:hover, article img:focus, article img:active {
 /* Footer */
 
 footer {
-    background-color: #00ffff;
-    padding-top: 20px;
-    padding-bottom: 20px;
+	padding-left: 3%;
+	padding-right: 1%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	color: #ffffff;
+	background-color: #0000ff;
+	font-family: "Mulish", sans-serif;
+    height: 70px;
 }
 
-footer h2 {
-    font-size: 140%;
-    text-align: center;
+.footer__text {
+    font-size: 20px;
 }
 
-/* .iconos {
-    list-style: none;
-    display: inline;
-    padding-left: 100px;
-} */ /* Codigo "en revision" */
+.footer__text--container {
+	margin-right: auto;
+}
+
+.footer__text--links {
+	margin-right: 1%;
+    font-size: 20px;
+}
+
+.footer__links {
+	padding: 0;
+	padding-right: 1%;
+	list-style: none;
+}
+
+.footer__links li {
+	align-content: center;
+	display: inline-block;
+}
+
+.footer__links li a {
+	padding-right: 1em;
+	padding-left: 1em;
+	text-decoration: none;
+}
+
+.footer__links img {
+	height: 2em;
+	width: 2em;
+}
 
 /* Termina Footer */
+
