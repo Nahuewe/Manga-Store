@@ -1,12 +1,12 @@
 
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Mulish', sans-serif;
 }
 
-header{
+header {
     background-color: black;
     color: #c40b0b;
     text-align: center;
@@ -18,14 +18,14 @@ header{
     list-style-type: none;
 }
 
-h1 a{
+h1 a {
     color: #ff0000;
     text-transform: uppercase;
 }
 
 /* Navbar */
 
-nav{
+nav {
     background-color: #0000ff;
 }
 
@@ -48,43 +48,25 @@ nav ul {
     text-decoration: none;
     padding: 0 10px;
     margin: 0 10px;
-  }
+}
 
-  .links:hover {
+.links:hover {
     background-color: #ffffff;
     color: #000000;
     padding: 20px 10px;
     text-decoration: underline;
     border-radius: 15px;
-  }
+}
 
-  .links:active {
+.links:active {
       background-color: #fa8072;
-  }
-
-/* nav ul li {
-    display: inline;
-    list-style: none;
-    text-decoration: none;
-    color: #ffffff;
-    margin: 5%;
-    height: 70px;
-    line-height: 70px;
-    text-transform: uppercase;
-    font-size: 80%;
-} Codigo "Desechado" */
+}
 
 /* Termina Navbar */
 
 /* Productos */
 
 .productos--arriba ul {
-    /* display: inline-block;
-    margin: 1% 4% 2% 6%;
-    box-shadow: 4px 5px 13px 1px #000000;
-    background-color: #ff0000;
-    min-width: 150px; */ /* Codigo "en revision" */
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -97,11 +79,6 @@ nav ul {
 }
 
 .productos--medio ul {
-    /* display: inline-block;
-    margin: 1% 4% 2% 6%;
-    box-shadow: 4px 5px 13px 1px #000000;
-    background-color: #00a100; */ /* Codigo "en revision" */
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -114,11 +91,6 @@ nav ul {
 }
 
 .productos--abajo ul {
-    /* display: inline-block;
-    margin: 1% 4% 2% 6%;
-    box-shadow: 4px 5px 13px 1px #000000;
-    background-color: #0000ff; */ /* Codigo "en revision" */
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -263,12 +235,7 @@ article img:hover, article img:focus, article img:active {
     border: 1px solid red;
 }
 
-/* .input:focus {
-    width: 220px;
-    font-size: 17px;
-} */ /* Codigo "en revision" */
-
-.text__area textarea{
+.text__area textarea {
     height: 150px;
     padding-top: 10px;
 }
