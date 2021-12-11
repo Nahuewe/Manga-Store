@@ -8,61 +8,28 @@
     <link rel="stylesheet" href="../styles/main.css">
 </head>
 
-<body>
-    <div>
+<body class="body__contacto">
+
+    <header>
         <nav>
             <ul>
                 <li><a href="../index.html" class="links">Inicio</a></li>
-                <li><a href="./novedades.html" class="links">Novedades</a></li>
                 <li><a href="./destacado.html" class="links">Destacados</a></li>
-                <li><a href="./iniciarSesion.html" class="links">Iniciar Sesión</a> | <a href="./crearCuenta.html" class="links">Crear Cuenta</a></li>
+                <li><a href="./novedades.html" class="links">Novedades</a></li>
+                <li><a href="./cuenta.html" class="links">Cuenta</a>
             </ul>
         </nav>
-    </div>
+    </header>
 
-    <main class="contacto__fondo">
-        <div class="contacto__grid">
-            <div> 
+    <main>
 
-                <form action="" class="contact__body">
-                    <h1 id="contacto">
-                        Contáctame
-                    </h1>
+        <form class="formulario">      
+            <input name="name" type="text" class="feedback-input" placeholder="Nombre" required>   
+            <input name="email" type="email" class="feedback-input" placeholder="Correo" required>
+            <textarea name="text" class="feedback-input" placeholder="Comentario" required></textarea>
+            <input type="submit" value="Enviar"/>
+        </form>
 
-                    <label for="name"></label>
-                    <input class="input" type="text" name="name" placeholder="Nombre" required>
-                    <br>
-                    <br>
-                    <label for="email"></label>
-                    <input class="input" type="email" name="email" placeholder="Email" required>
-                    <br>
-                    <br>
-                    <label for="mensaje"></label>
-                    <input class="input text__area" type="text" name="mensaje" placeholder="Mensaje">
-                    <br>
-                    <br>
-                    <input class="boton" type="submit" name="boton" value="Enviar">
-                    <br>
-                    <br>
-
-                </form>
-            </div>
-
-            <article class="articulos">
-                <h2>
-                    Informacion adicional
-                </h2>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis sequi consequuntur iste eveniet, odio possimus maiores ipsam dolores laboriosam impedit illo exercitationem excepturi illum praesentium labore fugiat non aliquam consectetur?
-                    Sunt, tenetur! Iure, nulla. Dolorem ut quam odio quis sed sequi voluptate aliquam eos magnam! Sunt facilis quia quos officia quae similique quibusdam corrupti dicta accusantium? Consequuntur numquam itaque quia?
-                    Inventore, eveniet aut magni possimus voluptatibus eum sapiente. Ea amet alias iure minus ad repudiandae omnis optio hic molestiae ex inventore at nobis, voluptate, a laudantium mollitia dolorum dicta similique?
-                    Ratione, ipsam culpa illo dolor amet, repudiandae minima provident cum, alias sint iusto repellat minus. Soluta porro eius animi doloribus sed adipisci facilis harum laboriosam, libero, ipsum, at accusamus ad.
-                    Consequatur illo distinctio non aspernatur libero vero rem ea repellat voluptates hic earum, optio maxime cumque dicta doloremque eligendi, repudiandae quia debitis blanditiis doloribus perspiciatis quibusdam! Distinctio quod tenetur mollitia?
-                </p>
-
-            </article>
-        </div>
     </main>
     
     <footer>

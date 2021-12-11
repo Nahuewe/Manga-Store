@@ -1,1 +1,21 @@
-Decidí empezar mi proyecto desde 0 (pero basándome en la misma idea que ya tenía) debido a que mi anterior intento me frustraba y lo sentía poco fluido. Lo que quiero conseguir con este nuevo repositorio es adaptar de mejor manera todos los contenidos nuevos que vaya adquiriendo.
+<h1 align"center"> manga-store </h1>
+
+<p>Intentado arrancar de nuevo con este proyecto, agregando paso a paso las nuvas herramientas que voy conociendo</p>
+
+<h2 align"center">Cosas que fui aprendiendo</h2>
+
+-HTML.
+
+-CSS.
+
+-FlexBox, Grid y Box Modeling.
+
+-Animaciones, transformaciones y transiciones.
+
+-Uso de Git y GitHub.
+
+-Bootstrap.
+
+-Media Querys.
+
+-SASS. (proximamente)
