@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Nahuel Soria Parodi">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="./styles/main.css">
     <title>Inicio</title>
 </head>
@@ -12,86 +16,237 @@
 <body>
 
     <header>
-        <nav>
-            <ul>
-                <li><a href="./pages/novedades.html" class="links">Novedades</a></li>
-                <li><a href="./pages/destacado.html" class="links">Destacados</a></li>
-                <li><a href="./pages/contacto.html" class="links">Contacto</a></li>
-                <li><a href="./pages/cuenta.html" class="links">Cuenta</a>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/cuenta.html">Cuenta</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search">
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <!-- Comienzo "Main" -->
+    <!-- Inicio main -->
 
     <main>
-        <section>
-            <article class="productos--arriba">
-                <ul>
-                    <li><a href="#"><img src="./source/images/portada_blue_lock.jpg" alt="Portada 3 Blue Lock" height="93%"></a></li>
-                    <li><a href="#"><img src="./source/images/portada_spy_x_family.jpg" alt="Portada 3 Spy x Family" height="93%"></a></li>
-                    <li><a href="#"><img src="./source/images/portada_tokyo_revengers.jpg" alt="Portada 13 Tokyo Revengers" height="93%"></a></li>
-                    <li><a href="#"><img src="./source/images/portada_wotakoi.jpg" alt="Portada 3 Wotakoi" height="93%"></a></li>
-                </ul>
-            </article>
+        <!-- Inicio sección 1 -->
+
+        <section class="d-flex justify-content-evenly">
+            <div class="card card__animation" style="width: 12rem;">
+                <img src="./source/images/portada_blue_lock.jpg" class="card-img-top" alt="Portada 3 Blue Lock">
+                <div class="card text-center"
+                    </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Blue Lock 03</li>
+                            <li class="list-group-item">Muneyuki Kaneshiro</li>
+                            <li class="list-group-item">$575</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card__animation" style="width: 12rem;">
+                <img src="./source/images/portada_tokyo_revengers.jpg" class="card-img-top" alt="Portada 13 Tokyo Revengers">
+                <div class="card text-center"
+                    </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Tokyo Revengers 13</li>
+                            <li class="list-group-item">Ken Wakui</li>
+                            <li class="list-group-item">$525</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card__animation" style="width: 12rem;">
+                <img src="./source/images/portada_wotakoi.jpg" class="card-img-top" alt="Portada 1 Wotakoi">
+                <div class="card text-center"
+                    </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Wotakoi 03</li>
+                            <li class="list-group-item">Fujita</li>
+                            <li class="list-group-item">$550</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card__animation" style="width: 12rem;">
+                <img src="./source/images/portada_spy_x_family.jpg" class="card-img-top" alt="Portada 3 Spy x Family">
+                <div class="card text-center"
+                    </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Spy x Family 03</li>
+                            <li class="list-group-item">Tatsuya</li>
+                            <li class="list-group-item">$575</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section>
-            <article class="productos--medio">
-                <ul>
-                    <li><a href="#"><img src="./source/images/portada_chainsaw_man.jpg" alt="Portada 3 Chainsaw Man" height="93%"></a></li>
-                    <li><a href="#"><img src="./source/images/portada_neverland.jpg" alt="Portada 1 The Promised Neverland" height="93%"></a></li>
-                    <li><a href="#"><img src="./source/images/portada_rooster_fighter.jpg" alt="Portada Rooster Fighter" height="93%"></a></li>
-                    <li><a href="#"><img src="./source/images/portada_shigatsu.jpg" alt="Portada 1 Shigatsu wa Kimi no Uso" height="93%"></a></li>
-                </ul>
-            </article>
+            <!-- Fin sección 1 -->
+
+            <!-- Inicio sección 2 -->
+
+        <section class="d-flex justify-content-evenly">
+            <div class="card card__animation" style="width: 12rem;">
+                <img src="./source/images/portada_chainsaw_man.jpg" class="card-img-top" alt="Portada 9 Chainsaw Man">
+                <div class="card text-center"
+                    </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Chainsaw Man 09</li>
+                            <li class="list-group-item">Tatsuki Fujimoto</li>
+                            <li class="list-group-item">$550</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card__animation" style="width: 12rem;">
+                <img src="./source/images/portada_dorohedoro.jpg" class="card-img-top" alt="Portada 1 Dorohedoro">
+                <div class="card text-center"
+                    </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Dorohedoro 01</li>
+                            <li class="list-group-item">Q Hayashida</li>
+                            <li class="list-group-item">$800</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card__animation" style="width: 12rem;">
+                <img src="./source/images/portada_hanako.jpg" class="card-img-top" alt="Portada 1 Hanako-kun">
+                <div class="card text-center"
+                    </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Hanako-kun 01</li>
+                            <li class="list-group-item">Aidairo</li>
+                            <li class="list-group-item">$575</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card__animation" style="width: 12rem;">
+                <img src="./source/images/portada_rooster_fighter.jpg" class="card-img-top" alt="Portada 1 Rooster Fighter">
+                <div class="card text-center"
+                    </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Rooster Fighter 01</li>
+                            <li class="list-group-item">Shū Sakuratani</li>
+                            <li class="list-group-item">$600</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section>
-            <article class="productos--abajo">
-                <ul>
-                    <li><a href="#"><img src="./source/images/portada_dorohedoro.jpg" alt="Portada 1 Dorohedoro" height="93%"></a></li>
-                    <li><a href="#"><img src="./source/images/portada_monogatari.jpg" alt="Portada 1 Bakemonogatari" height="93%"></a></li>
-                    <li><a href="#"><img src="./source/images/portada_made_in_abyss.jpg" alt="Portada 2 Made in Abyss" height="93%"></a></li>
-                    <li><a href="#"><img src="./source/images/portada_hanako.jpg" alt="Portada 1 Hanako Kun" height="93%"></a></li>
-                </ul>
-            </article>
+        <!-- Fin sección 2 -->
+
+        <!-- Inicio sección 3 -->
+
+        <section class="d-flex justify-content-evenly">
+            <div class="card card__animation" style="width: 12rem;">
+                <img src="./source/images/portada_made_in_abyss.jpg" class="card-img-top" alt="Portada 2 Made in Abyss">
+                <div class="card text-center"
+                    </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Made in Abyss 02</li>
+                            <li class="list-group-item">Akihito Tsukishi</li>
+                            <li class="list-group-item">$725</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card__animation" style="width: 12rem;">
+                <img src="./source/images/portada_monogatari.jpg" class="card-img-top" alt="Portada 1 Bakemonogatari">
+                <div class="card text-center"
+                    </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Bakemonogatari</li>
+                            <li class="list-group-item">Nishiosin</li>
+                            <li class="list-group-item">$575</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card__animation" style="width: 12rem;">
+                <img src="./source/images/portada_shigatsu.jpg" class="card-img-top" alt="Portada 1 Your Lie in April">
+                <div class="card text-center"
+                    </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Your Lie in April 01</li>
+                            <li class="list-group-item">Shū Sakuratani</li>
+                            <li class="list-group-item">$550</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card__animation" style="width: 12rem;">
+                <img src="./source/images/portada_neverland.jpg" class="card-img-top" alt="Portada 14 The Promised Neverland">
+                <div class="card text-center"
+                    </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">The Promised Neverland 14</li>
+                            <li class="list-group-item">Naoshi Arakawa</li>
+                            <li class="list-group-item">$550</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <!-- Fin sección 3 -->
 
     </main>
 
-    <!-- Fin de "Main" -->
+    <!-- Fin main -->
 
-    <!-- Comienzo "Footer" -->
+    <!-- footer -->
 
-    <footer>
-        <div class="footer__text--container">
-            <span class="footer__text">© 2021 Nahuel Soria Parodi</span>
-        </div>
-
-        <span class="footer__text--links">Seguinos en</span>
-
-        <ul class="footer__links">
-            <li>
-                <a href="https://www.instagram.com" target="_blank">
-                    <img class="footer__img" src="./source/logos/instagram_color.png" alt="instagram">
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/home?lang=es" target="_blank">
-                    <img class="footer__img" src="./source/logos/twitter_color.png" alt="Twitter">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com" target="_blank">
-                    <img class="footer__img" src="./source/logos/facebook_color.png" alt="Facebook">
-                </a>
-            </li>
-        </ul>
     </footer>
 
-    <!-- Fin de "Footer" -->
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="https://github.com/Nahuewe" target="_blank"><i class="icon ion-social-github"></i></a><a href="https://www.instagram.com/nahueh/" target="_blank"><i class="icon ion-social-instagram"></i></a><a href="https://twitter.com/home" target="_blank"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com" target="_blank"><i class="icon ion-social-facebook"></i></a></div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#">Inicio</a></li>
+                    <li class="list-inline-item"><a href="#">Sobre Nosotros</a></li>
+                    <li class="list-inline-item"><a href="#">Terminos</a></li>
+                    <li class="list-inline-item"><a href="#">Politicas de Privacidad</a></li>
+                </ul>
+            <p class="copyright">Nahuel Soria Parodi © 2021</p>
+        </footer>
+    </div>
 
+    <!-- Fin footer -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
