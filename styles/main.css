@@ -38,6 +38,7 @@
     border: 2px solid #ff0000;
 }
 
+
 .textos {
     display: flex;
     text-align: center;
@@ -54,6 +55,10 @@
 .textos:hover {
     background-color: #645e9d;
     color: #ffffff;
+}
+
+.fs-3 {
+    margin: 0;
 }
 
 .card__animation {
