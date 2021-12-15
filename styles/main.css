@@ -8,6 +8,7 @@
 
 .main--color {
     background-color: #14213d;
+    overflow: hidden;
 }
 
 .card--top {
