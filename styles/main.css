@@ -29,18 +29,18 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-size: 28px;
     font-family: Arial, sans-serif;
     margin: 80px auto 80px auto;
-    border-style: dashed;
+    border-style: solid;
     width: 10%;
     border-radius: 20px;
 }
 
 .textos:hover {
     background-color: #645e9d;
-    color: white;
+    color: #ffffff;
 }
 
 .card__animation {
@@ -61,9 +61,20 @@
 .card__animation:hover, .card__animation:focus, .card__animation:active {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    box-shadow: 0 0 2px 1px #008cba80;
 }
-    
+
+.hr--top {
+    border: 2px solid #8a2be2;
+}
+
+.hr--mid {
+    border: 2px solid #000000;
+}
+
+.hr--bottom {
+    border: 2px solid #ff0000;
+}
 
 /* Productos fin */
 
@@ -72,7 +83,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 .body__contacto { 
-    background:rgb(30,30,40); 
+    background:#1e1e28; 
 }
 
 .formulario { 
@@ -80,7 +91,7 @@
 }
 
 .feedback__input {
-    color:white;
+    color:#ffffff;
     font-family: Helvetica, Arial, sans-serif;
     font-weight:500;
     font-size: 18px;
@@ -113,7 +124,7 @@ textarea {
     border-radius:5px;
     border:0;
     cursor:pointer;
-    color:white;
+    color:#ffffff;
     font-size:24px;
     padding-top:10px;
     padding-bottom:10px;
@@ -144,7 +155,7 @@ textarea {
 .main {
 	width: 350px;
 	height: 500px;
-	background: red;
+	background: #ff0000;
 	overflow: hidden;
 	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
 	border-radius: 10px;
@@ -316,7 +327,7 @@ textarea {
 
     .textos:hover {
         background-color: #89aae6;
-        color: white;
+        color: #ffffff;
     }
 }
 
