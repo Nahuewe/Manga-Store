@@ -12,29 +12,73 @@
     <title>Cuenta</title>
 </head>
 
-<body class="body__cuenta">
+<body>
+	<header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./cuenta.html">Cuenta</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search">
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-	<div class="main">  	
-		<input type="checkbox" id="chk" aria-hidden="true">
-		<div class="signup">
-			<form>
-				<label class="label" for="chk" aria-hidden="true">Registrarse</label>
-				<input class="input" type="text" name="txt" placeholder="Nombre de Usuario" required="">
-				<input class="input" type="email" name="email" placeholder="Correo" required="">
-				<input class="input" type="password" name="pswd" placeholder="Contraseña" required="">
-				<button class="button">Registrarse</button>
-			</form>
-		</div>
+	<div class="cuenta">
+		<div class="main">  	
+			<input type="checkbox" id="chk" aria-hidden="true">
+			<div class="signup">
+				<form>
+					<label class="label" for="chk" aria-hidden="true">Registrarse</label>
+					<input class="input" type="text" name="txt" placeholder="Nombre de Usuario" required="">
+					<input class="input" type="email" name="email" placeholder="Correo" required="">
+					<input class="input" type="password" name="pswd" placeholder="Contraseña" required="">
+					<button class="button">Registrarse</button>
+				</form>
+			</div>
 
-		<div class="login">
-			<form>
-				<label class="label" for="chk" aria-hidden="true">Ingresar</label>
-				<input class="input" type="email" name="email" placeholder="Correo" required="">
-				<input class="input" type="password" name="pswd" placeholder="Contraseña" required="">
-				<button class="button">Ingresar</button>
-			</form>
+			<div class="login">
+				<form>
+					<label class="label" for="chk" aria-hidden="true">Ingresar</label>
+					<input class="input" type="email" name="email" placeholder="Correo" required="">
+					<input class="input" type="password" name="pswd" placeholder="Contraseña" required="">
+					<button class="button">Ingresar</button>
+				</form>
+			</div>
 		</div>
 	</div>
+
+	<div class="footer">
+        <footer>
+            <div class="social"><a href="https://github.com/Nahuewe" target="_blank"><i class="icon ion-social-github"></i></a><a href="https://www.instagram.com/nahueh/" target="_blank"><i class="icon ion-social-instagram"></i></a><a href="https://twitter.com/home" target="_blank"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com" target="_blank"><i class="icon ion-social-facebook"></i></a></div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="../index.html">Inicio</a></li>
+                    <li class="list-inline-item"><a href="#">Sobre Nosotros</a></li>
+                    <li class="list-inline-item"><a href="#">Terminos</a></li>
+                    <li class="list-inline-item"><a href="#">Politicas de Privacidad</a></li>
+                </ul>
+            <p class="copyright">Nahuel Soria Parodi © 2021</p>
+        </footer>
+    </div>
 
 </body>
 </html>
