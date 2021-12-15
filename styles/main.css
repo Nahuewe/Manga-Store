@@ -6,24 +6,36 @@
 
 /* Productos */
 
-.main--color {
+.main__color {
     background-color: #14213d;
     overflow: hidden;
 }
 
-.card--top {
+.card__top {
     width: 14rem; 
     margin: 70px 100px 20px 100px;
 }
 
-.card--mid {
-    width: 14rem;
-    margin: 20px 100px 20px 100px;
+.hr__top {
+    border: 2px solid #8a2be2;
 }
 
-.card--bottom {
+.card__mid {
+    width: 14rem;
+    margin: 30px 100px 30px 100px;
+}
+
+.hr__mid {
+    border: 2px solid #000000;
+}
+
+.card__bottom {
     width: 14rem;
     margin: 20px 100px 40px 100px;
+}
+
+.hr__bottom {
+    border: 2px solid #ff0000;
 }
 
 .textos {
@@ -63,18 +75,6 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     box-shadow: 0 0 2px 1px #008cba80;
-}
-
-.hr--top {
-    border: 2px solid #8a2be2;
-}
-
-.hr--mid {
-    border: 2px solid #000000;
-}
-
-.hr--bottom {
-    border: 2px solid #ff0000;
 }
 
 /* Productos fin */
