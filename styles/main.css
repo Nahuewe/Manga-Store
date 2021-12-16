@@ -41,7 +41,7 @@ nav a:hover::after{
 
 .card__top {
     width: 14rem; 
-    margin: 70px 100px 20px 100px;
+    margin: 70px 50px 20px 50px;
 }
 
 .hr__top {
@@ -50,7 +50,7 @@ nav a:hover::after{
 
 .card__mid {
     width: 14rem;
-    margin: 30px 100px 30px 100px;
+    margin: 30px 50px 30px 50px;
 }
 
 .hr__mid {
@@ -59,7 +59,7 @@ nav a:hover::after{
 
 .card__bottom {
     width: 14rem;
-    margin: 20px 100px 50px 100px;
+    margin: 20px 50px 50px 50px;
 }
 
 .hr__bottom {
@@ -77,6 +77,7 @@ nav a:hover::after{
     border-style: solid;
     width: 10%;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .textos:hover {
@@ -88,7 +89,7 @@ nav a:hover::after{
     margin: 0;
 }
 
-.novedades {
+/* .novedades {
     background: radial-gradient(
     hsl(100 100% 60%),
     hsl(200 100% 60%)
@@ -120,7 +121,7 @@ nav a:hover::after{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-}
+} */
 
 .card__animation {
     border: 3px solid #fff;
@@ -439,7 +440,7 @@ textarea {
         transform-origin: center;
     }
 
-    .novedades {
+    /* .novedades {
         background: radial-gradient(
         hsl(100 100% 60%),
         hsl(200 100% 60%)
@@ -471,7 +472,56 @@ textarea {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-align: center;
-    }
+    } */
 }
 
 /* Termina Media Querys */
+
+/* .border {
+    width: 200px;
+    height: 200px;
+    box-shadow: 16px 14px 20px #00000008;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.border::before {
+    content: "";
+    background-image: conic-gradient(
+        #ff0502 20deg,
+        transparent 120deg
+    );
+    width: 150%;
+    height: 150%;
+    position: absolute;
+    animation: rotate 2s infinite;
+}
+
+.border::after {
+    content: animation;
+    width: 190px;
+    height: 190px;
+    background-image: #000;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: red;
+    font-size: larger;
+    letter-spacing: 5px;
+    box-shadow: inset 20px 20px 20px #00000008;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+} */
