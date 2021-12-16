@@ -4,6 +4,34 @@
     font-family: 'Mulish', sans-serif;
 }
 
+/* Navbar */
+
+nav ul li a{
+    position: relative;
+    color: #ecf0f1;
+    transition: 0.5s;
+}
+
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    background: #faebd7;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: center;
+}
+
+nav a:hover::after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+/* Navbar Fin */
+
 /* Productos */
 
 .main__color {
@@ -31,7 +59,7 @@
 
 .card__bottom {
     width: 14rem;
-    margin: 20px 100px 40px 100px;
+    margin: 20px 100px 50px 100px;
 }
 
 .hr__bottom {
@@ -385,6 +413,30 @@ textarea {
     .textos:hover {
         background-color: #89aae6;
         color: #ffffff;
+    }
+
+    nav ul li a{
+        position: relative;
+        color: #ecf0f1;
+        transition: 0.5s;
+    }
+    
+    nav ul li a::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        top: 100%;
+        left: 0;
+        background: #faebd7;
+        transition: transform 0.5s;
+        transform: scaleX(0);
+        transform-origin: center;
+    }
+    
+    nav a:hover::after{
+        transform: scaleX(1);
+        transform-origin: center;
     }
 
     .novedades {
