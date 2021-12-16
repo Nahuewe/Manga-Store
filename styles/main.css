@@ -38,7 +38,6 @@
     border: 2px solid #ff0000;
 }
 
-
 .textos {
     display: flex;
     text-align: center;
@@ -311,6 +310,24 @@ textarea {
     font-size: 15px;
     color:#aaa;
     margin-bottom: 0;
+}
+
+/* Iconos */
+
+.ion-social-github:before {
+    margin-top: 5px;
+}
+
+.ion-social-instagram:before {
+    margin-top: 5px;
+}
+
+.ion-social-twitter:before {
+    margin-top: 5px;
+}
+
+.ion-social-facebook:before {
+    margin-top: 5px;
 }
 
 /* Footer fin */
