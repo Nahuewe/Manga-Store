@@ -60,6 +60,40 @@
     margin: 0;
 }
 
+.novedades {
+    background: radial-gradient(
+    hsl(100 100% 60%),
+    hsl(200 100% 60%)
+    ) fixed;
+
+    background: conic-gradient(
+    hsl(100 100% 60%),
+    hsl(200 100% 60%),
+    hsl(100 100% 60%)
+    ) fixed;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.destacados {
+    background: radial-gradient(
+    hsl(200 100% 60%),
+    hsl(100 100% 60%)
+    ) fixed;
+
+    background: conic-gradient(
+    hsl(200 100% 60%),
+    hsl(100 100% 60%),
+    hsl(200 100% 60%)
+    ) fixed;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
 .card__animation {
     border: 3px solid #fff;
     padding: 0;
@@ -87,12 +121,12 @@
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-.body__contacto { 
-    background:#1e1e28; 
+.body__contacto {
+    background:#1e1e28;
 }
 
-.formulario { 
-    max-width:420px; margin:50px auto; 
+.formulario {
+    max-width:420px; margin:50px auto;
 }
 
 .feedback__input {
@@ -112,7 +146,7 @@
     outline:0;
 }
 
-.feedback__input:focus { 
+.feedback__input:focus {
     border:2px solid #CC4949;
 }
 
@@ -138,7 +172,7 @@ textarea {
     font-weight:700;
 }
 
-[type="submit"]:hover { 
+[type="submit"]:hover {
     background:#CC4949;
 }
 
@@ -351,6 +385,40 @@ textarea {
     .textos:hover {
         background-color: #89aae6;
         color: #ffffff;
+    }
+
+    .novedades {
+        background: radial-gradient(
+        hsl(100 100% 60%),
+        hsl(200 100% 60%)
+        ) fixed;
+    
+        background: conic-gradient(
+        hsl(100 100% 60%),
+        hsl(200 100% 60%),
+        hsl(100 100% 60%)
+        ) fixed;
+    
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+    
+    .destacados {
+        background: radial-gradient(
+        hsl(200 100% 60%),
+        hsl(100 100% 60%)
+        ) fixed;
+    
+        background: conic-gradient(
+        hsl(200 100% 60%),
+        hsl(100 100% 60%),
+        hsl(200 100% 60%)
+        ) fixed;
+        
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
     }
 }
 
