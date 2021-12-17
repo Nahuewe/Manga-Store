@@ -5,6 +5,7 @@
 }
 
 /* Navbar */
+
 nav ul li a {
   position: relative;
   color: #ecf0f1;
@@ -38,7 +39,9 @@ nav a:hover::after {
 }
 
 /* Navbar fin */
+
 /* Main */
+
 .main__color {
   background-color: #14213d;
   overflow: hidden;
@@ -139,7 +142,9 @@ nav a:hover::after {
 }
 
 /* Main fin */
+
 /* Contacto */
+
 .body__contacto {
   background: #1e1e28;
   font-family: 'Montserrat', sans-serif;
@@ -331,7 +336,9 @@ textarea {
 }
 
 /* Cuenta Fin */
+
 /* Footer */
+
 .footer {
   padding: 40px 0;
   background-color: #faebd7;
@@ -410,7 +417,9 @@ textarea {
 }
 
 /* Footer Fin */
+
 /* Media Querys */
+
 @media (min-width: 280px) and (max-width: 766px) {
   .textos {
     display: -webkit-box;
@@ -647,4 +656,5 @@ textarea {
 }
 
 /* Media Querys Fin */
+
 /*# sourceMappingURL=style.css.map */
