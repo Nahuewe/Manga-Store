@@ -1,6 +1,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	font-family: 'Mulish', sans-serif;
 }
   
   /* Scrollbar */
@@ -525,7 +526,7 @@ textarea {
 	bottom: 0;
 	width: 100%;
 }
-  
+
 .footer {
 	ul {
 		padding: 0;
@@ -601,15 +602,15 @@ textarea {
 	}
 }
   
-  /* Iconos */
+/* Iconos */
   
 .ion-social-github:before, .ion-social-instagram:before, .ion-social-twitter:before, .ion-social-facebook:before {
 	margin-top: 5px;
 }
   
-  /* Footer fin */
+/* Footer fin */
   
-  /* Media Querys */
+/* Media Querys */
   
 @media (min-width: 280px) and (max-width: 766px) {
 	.textos {
@@ -938,5 +939,45 @@ textarea {
 		margin: 20px 10px 50px 10px;
 	}
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.textos {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		text-align: center;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		color: #ffffff;
+		font-size: 28px;
+		font-family: Arial, sans-serif;
+		margin: 80px auto 80px auto;
+		border-style: solid;
+		width: 30%;
+		border-radius: 20px;
+		overflow: hidden;
+	
+		&:hover {
+			background-color: #645e9d;
+			color: #ffffff;
+		}
+	}
   
-  /* Termina Media Querys */
+	.card__top {
+		width: 14rem;
+		margin: 70px 80px 20px 80px;
+	}
+  
+	.card__mid {
+		width: 14rem;
+		margin: 30px 80px 30px 80px;
+	}
+  
+	.card__bottom {
+		width: 14rem;
+		margin: 20px 80px 50px 80px;
+	}
+}
+  
+/* Termina Media Querys */
