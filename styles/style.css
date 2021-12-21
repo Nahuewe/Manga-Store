@@ -59,17 +59,14 @@ nav a:hover::after {
   display: flex;
   text-align: center;
   justify-content: center;
-  color: #ffffff;
+  color: white;
   font-size: 28px;
   font-family: Arial, sans-serif;
   margin: 80px auto 80px auto;
-  border-style: solid;
   width: 10%;
   border-radius: 20px;
-  overflow: hidden; }
-  .textos:hover {
-    background-color: #645e9d;
-    color: #ffffff; }
+  overflow: hidden;
+  border: 3px solid white; }
 
 .fs-3 {
   margin: 0; }
@@ -114,6 +111,38 @@ nav a:hover::after {
     color: white;
     -webkit-transition-duration: 0,7s;
     transition-duration: 0.7s; }
+
+.hvr--radial--out {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s; }
+  .hvr--radial--out:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #4eb9eb;
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out; }
+  .hvr--radial--out:hover, .hvr--radial--out:focus, .hvr--radial--out:active {
+    color: black; }
+  .hvr--radial--out:hover:before, .hvr--radial--out:focus:before, .hvr--radial--out:active:before {
+    -webkit-transform: scale(2);
+    transform: scale(2); }
 
 .img__wrap {
   position: relative;
@@ -503,9 +532,6 @@ textarea {
     border-style: dashed;
     width: 55%;
     border-radius: 20px; }
-    .textos:hover {
-      background-color: #89aae6;
-      color: #ffffff; }
   .body__venta {
     background-color: #14213d; }
   .wrapper {
@@ -629,9 +655,6 @@ textarea {
     width: 20%;
     border-radius: 20px;
     overflow: hidden; }
-    .textos:hover {
-      background-color: #645e9d;
-      color: #ffffff; }
   .card__top {
     width: 14rem;
     margin: 70px 50px 20px 50px; }
@@ -660,9 +683,6 @@ textarea {
     width: 20%;
     border-radius: 20px;
     overflow: hidden; }
-    .textos:hover {
-      background-color: #645e9d;
-      color: #ffffff; }
   .card__top {
     width: 14rem;
     margin: 70px 10px 20px 10px; }
@@ -692,9 +712,6 @@ textarea {
     width: 30%;
     border-radius: 20px;
     overflow: hidden; }
-    .textos:hover {
-      background-color: #645e9d;
-      color: #ffffff; }
   .card__top {
     width: 14rem;
     margin: 70px 80px 20px 80px; }
@@ -718,9 +735,6 @@ textarea {
     width: 20%;
     border-radius: 20px;
     overflow: hidden; }
-    .textos:hover {
-      background-color: #645e9d;
-      color: #ffffff; }
   .card__top {
     width: 14rem;
     margin: 70px 10px 20px 10px; }
@@ -748,9 +762,6 @@ textarea {
     width: 30%;
     border-radius: 20px;
     overflow: hidden; }
-    .textos:hover {
-      background-color: #645e9d;
-      color: #ffffff; }
   .card__top {
     width: 14rem;
     margin: 70px 80px 20px 80px; }
