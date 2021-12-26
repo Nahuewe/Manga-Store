@@ -157,7 +157,7 @@ nav {
 		justify-content: center;
 		align-items: center;
 		box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-		font-size: 15px;
+		font-size: 14px;
 		opacity: 0.9;
 	}
 }
@@ -193,7 +193,7 @@ nav {
 		justify-content: center;
 		align-items: center;
 		box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-		font-size: 14px;
+		font-size: 13px;
 		opacity: 0.9;
 	}
 }
@@ -229,7 +229,7 @@ nav {
 		justify-content: center;
 		align-items: center;
 		box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-		font-size: 14px;
+		font-size: 13px;
 		opacity: 0.9;
 	}
 }
@@ -936,6 +936,7 @@ textarea {
 		justify-items: center;
 		margin-bottom: 7%;
 		margin-top: 7%;
+		transition-delay: 3s;
 	}
 
 	carousel-container {
@@ -943,6 +944,7 @@ textarea {
 		height: 600px;
 		margin-bottom: 5%;
 		margin-left: 5%;
+		transition-delay: 3s;
 	}
 	
 	.carousel-item img {
