@@ -1,7 +1,12 @@
+/* Variables */
+/* Variables Fin */
 * {
   margin: 0px;
   padding: 0px;
   font-family: 'Mulish', sans-serif; }
+
+html {
+  scroll-behavior: smooth; }
 
 /* Scrollbar */
 ::-webkit-scrollbar {
@@ -88,6 +93,102 @@ nav a:hover::after {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     box-shadow: 0 0 2px 1px #008cba80; }
+
+.card__ribbon--top {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  background: #fff;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  border: 2px solid #ffffff; }
+
+.card__ribbon--top span {
+  position: absolute;
+  top: -40px;
+  left: -25px;
+  width: 120px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+  .card__ribbon--top span::before {
+    content: "Preventa";
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background: #d48464;
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    opacity: 0.9; }
+
+.card__ribbon--mid {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  background: #fff;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  border: 2px solid #ffffff; }
+
+.card__ribbon--mid span {
+  position: absolute;
+  top: -40px;
+  left: -25px;
+  width: 120px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+  .card__ribbon--mid span::before {
+    content: "Novedades";
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background: #bcd464;
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    opacity: 0.9; }
+
+.card__ribbon--bottom {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  background: #fff;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  border: 2px solid #ffffff; }
+
+.card__ribbon--bottom span {
+  position: absolute;
+  top: -40px;
+  left: -25px;
+  width: 120px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+  .card__ribbon--bottom span::before {
+    content: "Destacados";
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background: #64d493;
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    opacity: 0.9; }
 
 .overlay {
   opacity: 1;
@@ -190,8 +291,23 @@ nav a:hover::after {
   color: #fff;
   visibility: hidden;
   opacity: 0;
-  height: 243px;
+  height: 245px;
   font-family: 'Roboto'; }
+
+.container--mangas {
+  display: none;
+  visibility: hidden; }
+
+carousel-container {
+  width: 200px;
+  height: 600px;
+  margin-bottom: 5%;
+  margin-left: 5%; }
+
+.carousel-item img {
+  margin: auto;
+  height: 250px;
+  width: 200px; }
 
 /* Productos fin */
 /* Venta */
@@ -629,7 +745,38 @@ textarea {
     position: relative;
     padding: 40px 0;
     background-color: #faebd7;
-    color: #4b4c4d; } }
+    color: #4b4c4d; }
+  .container--mangas {
+    display: flex;
+    visibility: visible;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 7%;
+    margin-top: 7%; }
+  carousel-container {
+    width: 200px;
+    height: 600px;
+    margin-bottom: 5%;
+    margin-left: 5%; }
+  .carousel-item img {
+    margin: auto;
+    height: 250px;
+    width: 200px; }
+  .img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    height: 250px;
+    font-family: 'Roboto'; }
+  .hidden__section {
+    display: none;
+    visibility: hidden; } }
 
 @media (min-width: 540px) and (max-width: 770px) {
   .card__top {
