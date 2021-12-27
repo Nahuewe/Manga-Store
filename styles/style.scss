@@ -1,7 +1,6 @@
 /* Variables */
 
-$carousel-transition-duration: .6s;
-$carousel-transition: transform $carousel-transition-duration ease-in-out;
+
 
 /* Variables Fin */
 
@@ -157,7 +156,7 @@ nav {
 		justify-content: center;
 		align-items: center;
 		box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-		font-size: 14px;
+		font-size: 15px;
 		opacity: 0.9;
 	}
 }
@@ -682,23 +681,21 @@ textarea {
 /* Cuenta fin */
   
 /* Footer */
-  
-.footer {
-	padding: 40px 0;
-	background-color: #faebd7;
-	color: #4b4c4d;
-}
-  
-.footer__pages {
-	padding: 40px 0;
-	background-color: #faebd7;
-	color: #4b4c4d;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-}
 
 .footer {
+	padding: 40px 0;
+	background-color: #faebd7;
+	color: #4b4c4d;
+
+	&__pages {
+		padding: 40px 0;
+		background-color: #faebd7;
+		color: #4b4c4d;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+
 	ul {
 		padding: 0;
 		list-style: none;
@@ -1126,6 +1123,13 @@ textarea {
 	.card__bottom {
 		width: 14rem;
 		margin: 20px 10px 50px 10px;
+	}
+
+	.footer__pages {
+		position: relative;
+		padding: 40px 0;
+		background-color: #faebd7;
+		color: #4b4c4d;
 	}
 }
 
