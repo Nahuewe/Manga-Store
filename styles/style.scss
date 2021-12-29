@@ -1,6 +1,6 @@
 /* Variables */
 
-
+@import "variables";
 
 /* Variables Fin */
 
@@ -67,7 +67,7 @@ nav {
 /* Productos */
   
 .main__color {
-	background-color: #14213d;
+	background-color: $color__principal;
 	overflow: hidden;
 }
   
@@ -87,9 +87,7 @@ nav {
 }
   
 .textos {
-	display: flex;
-	text-align: center;
-	justify-content: center;
+	@extend %texto;
 	color: rgb(255, 255, 255);
 	font-size: 28px;
 	font-family: Arial, sans-serif;
@@ -97,7 +95,7 @@ nav {
 	width: 10%;
 	border-radius: 20px;
 	overflow: hidden;
-	border: 3px solid white;
+	border: 3px solid map-get($colores, "blanco");
 }
   
 .fs-3 {
@@ -105,7 +103,7 @@ nav {
 }
   
 .card__animation {
-	border: 3px solid #fff;
+	border: 3px solid map-get($colores, "blanco");
 	padding: 0;
 	width: 100%;
 	display: inline-block;
@@ -129,7 +127,7 @@ nav {
 	position: relative;
 	width: 200px;
 	height: 250px;
-	background: #fff;
+	background: $blanco;
 	box-shadow: 0 25px 50px rgba(0,0,0,0.15);
 	border: 2px solid #ffffff;
 }
@@ -165,9 +163,9 @@ nav {
 	position: relative;
 	width: 200px;
 	height: 250px;
-	background: #fff;
+	background: map-get($colores, "blanco");
 	box-shadow: 0 25px 50px rgba(0,0,0,0.15);
-	border: 2px solid #ffffff;
+	border: 2px solid map-get($colores, "blanco");
 }
 
 .card__ribbon--mid span {
@@ -203,7 +201,7 @@ nav {
 	height: 250px;
 	background: #fff;
 	box-shadow: 0 25px 50px rgba(0,0,0,0.15);
-	border: 2px solid #ffffff;
+	border: 2px solid $blanco;
 }
 
 .card__ribbon--bottom span {
@@ -256,7 +254,7 @@ nav {
   
 	&:hover, &:focus, &:active {
 		background-color: #625e96af;
-		color: white;
+		color: $blanco;
 		-webkit-transition-duration: 0,7s;
 		transition-duration: 0.7s;
 	}
@@ -411,7 +409,7 @@ carousel-container {
 	height: 420px;
 	width: 327px;
 	border-radius: 0 7px 10px 7px;
-	background-color: #ffffff;
+	background-color: map-get($colores, "blanco")
 }
   
 .product--text {
@@ -499,7 +497,7 @@ span {
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
-	color: #ffffff;
+	color: map-get($colores, "blanco");
 	background-color: #1c3c81c5;
 	cursor: pointer;
 	outline: none;
@@ -524,7 +522,7 @@ span {
 }
   
 .feedback__input {
-	color: #ffffff;
+	color: map-get($colores, "blanco");
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: 500;
 	font-size: 18px;
@@ -920,10 +918,7 @@ textarea {
 	}
   
 	.footer__pages {
-		position: relative;
-		padding: 40px 0;
-		background-color: #faebd7;
-		color: #4b4c4d;
+		@include footer
 	}
 
 	.container--mangas {
@@ -1018,10 +1013,7 @@ textarea {
 	}
   
 	.footer__pages {
-		position: relative;
-		padding: 40px 0;
-		background-color: #faebd7;
-		color: #4b4c4d;
+		@include footer
 	}
 }
   
@@ -1092,6 +1084,10 @@ textarea {
 	.card__bottom {
 		width: 14rem;
 		margin: 20px 80px 50px 80px;
+	}
+
+	.footer__pages {
+		@include footer
 	}
 }
   
@@ -1165,6 +1161,10 @@ textarea {
 	.card__bottom {
 		width: 14rem;
 		margin: 20px 80px 50px 80px;
+	}
+
+	.footer__pages {
+		@include footer
 	}
 }
   

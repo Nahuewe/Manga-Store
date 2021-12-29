@@ -1,4 +1,9 @@
 /* Variables */
+.textos {
+  display: flex;
+  text-align: center;
+  justify-content: center; }
+
 /* Variables Fin */
 * {
   margin: 0px;
@@ -61,9 +66,6 @@ nav a:hover::after {
   margin: 20px 100px 50px 100px; }
 
 .textos {
-  display: flex;
-  text-align: center;
-  justify-content: center;
   color: white;
   font-size: 28px;
   font-family: Arial, sans-serif;
@@ -71,13 +73,13 @@ nav a:hover::after {
   width: 10%;
   border-radius: 20px;
   overflow: hidden;
-  border: 3px solid white; }
+  border: 3px solid #ffffff; }
 
 .fs-3 {
   margin: 0; }
 
 .card__animation {
-  border: 3px solid #fff;
+  border: 3px solid #ffffff;
   padding: 0;
   width: 100%;
   display: inline-block;
@@ -98,7 +100,7 @@ nav a:hover::after {
   position: relative;
   width: 200px;
   height: 250px;
-  background: #fff;
+  background: #ffffff;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   border: 2px solid #ffffff; }
 
@@ -130,7 +132,7 @@ nav a:hover::after {
   position: relative;
   width: 200px;
   height: 250px;
-  background: #fff;
+  background: #ffffff;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   border: 2px solid #ffffff; }
 
@@ -209,7 +211,7 @@ nav a:hover::after {
   transition-property: color, background-color; }
   .hvr--fade:hover, .hvr--fade:focus, .hvr--fade:active {
     background-color: #625e96af;
-    color: white;
+    color: #ffffff;
     -webkit-transition-duration: 0,7s;
     transition-duration: 0.7s; }
 
@@ -863,7 +865,12 @@ textarea {
     margin: 30px 80px 30px 80px; }
   .card__bottom {
     width: 14rem;
-    margin: 20px 80px 50px 80px; } }
+    margin: 20px 80px 50px 80px; }
+  .footer__pages {
+    position: relative;
+    padding: 40px 0;
+    background-color: #faebd7;
+    color: #4b4c4d; } }
 
 @media (min-width: 1239px) and (max-width: 1671px) {
   .textos {
@@ -918,6 +925,11 @@ textarea {
     margin: 30px 80px 30px 80px; }
   .card__bottom {
     width: 14rem;
-    margin: 20px 80px 50px 80px; } }
+    margin: 20px 80px 50px 80px; }
+  .footer__pages {
+    position: relative;
+    padding: 40px 0;
+    background-color: #faebd7;
+    color: #4b4c4d; } }
 
 /* Termina Media Querys */

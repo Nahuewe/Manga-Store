@@ -1,0 +1,37 @@
+// variables
+
+$blanco: #ffffff;
+$color__principal: #14213d;
+
+// mixin
+
+@mixin footer() {
+    position: relative;
+    padding: 40px 0;
+    background-color: #faebd7;
+    color: #4b4c4d;
+}
+
+// extend
+
+%texto {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+// map
+
+$colores: (
+    "azul": #1919e6,
+    "rojo": #e61919,
+    "amarillo": #e6e619,
+    "verde": #19e635,
+    "naranja": #ffa600,
+    "morado": #9900ff,
+    "gris": #808080,
+    "blanco": #ffffff,
+    "negro": #000000,
+); 
+
+@debug map-get($colores, "blanco")
