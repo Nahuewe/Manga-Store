@@ -20,6 +20,6 @@
 
 -SCSS.
 
--SEO. (proximamente)
+-SEO.
 
 ![1523674222_ezgif com-crop](https://user-images.githubusercontent.com/93626668/146201912-1b34d117-9e36-43f8-9ade-e3f0d56fbbd5.gif)
