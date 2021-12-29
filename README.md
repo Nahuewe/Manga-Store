@@ -18,7 +18,7 @@
 
 -Media Querys.
 
--SCSS.
+-SCSS/SASS.
 
 -SEO.
 
