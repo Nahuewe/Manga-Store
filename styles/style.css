@@ -641,7 +641,7 @@ textarea {
     font-size: 28px;
     font-family: Arial, sans-serif;
     margin: 80px auto 80px auto;
-    border-style: dashed;
+    border-style: solid;
     width: 55%;
     border-radius: 20px; }
   .body__venta {
