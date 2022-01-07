@@ -22,4 +22,6 @@
 
 -SEO.
 
+-Subida al Servidor.
+
 <p align="center"><img src="https://user-images.githubusercontent.com/93626668/146201912-1b34d117-9e36-43f8-9ade-e3f0d56fbbd5.gif" alt="Hollow Knight gif" width="100%"></p>
