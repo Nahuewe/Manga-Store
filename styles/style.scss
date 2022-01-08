@@ -408,21 +408,8 @@ carousel-container {
 	float: left;
 	height: 420px;
 	width: 327px;
-	border-radius: 0 7px 10px 7px;
+	border-radius: 0 7px 7px 0px;
 	background-color: map-get($colores, "blanco")
-}
-  
-.product--text {
-	height: 300px;
-	width: 327px;
-  
-	h1 {
-		margin: 0 0 0 38px;
-		padding-top: 52px;
-		font-size: 34px;
-		color: #474747;
-		font-family: 'Bentham', serif;
-	}
 }
   
 .product--price-btn p {
@@ -430,8 +417,19 @@ carousel-container {
 }
   
 .product--text {
+	height: 300px;
+	width: 327px;
+  
+	h1 {
+		margin: 0 0 5px 38px;
+		padding-top: 52px;
+		font-size: 34px;
+		color: #474747;
+		font-family: 'Bentham', serif;
+	}
+
 	h2 {
-		margin: 0 0 47px 38px;
+		margin: 0 0 30px 38px;
 		font-size: 13px;
 		font-family: 'Raleway', sans-serif;
 		font-weight: 400;
@@ -441,8 +439,8 @@ carousel-container {
 	}
   
 	p {
-		height: 125px;
-		margin: 0 0 0 36px;
+		height: 136px;
+		margin: 0 36px 0 36px;
 		font-family: 'Roboto', sans-serif;
 		color: #8d8d8d;
 		line-height: 1.7em;
@@ -450,6 +448,8 @@ carousel-container {
 		font-weight: lighter;
 		overflow: scroll;
 		overflow-x: hidden;
+		text-align: justify;
+		text-justify: inter-word;
 	
 		&::-webkit-scrollbar {
 			width: 0;
