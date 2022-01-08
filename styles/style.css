@@ -668,6 +668,8 @@ textarea {
     width: 327px;
     border-radius: 0 7px 10px 7px;
     background-color: #ffffff; }
+  .product--price-btn p {
+    font-family: 'Bentham', serif; }
   .product--text {
     height: 300px;
     width: 327px; }
@@ -677,27 +679,25 @@ textarea {
       font-size: 34px;
       color: #474747;
       font-family: 'Bentham', serif; }
-  .product--price-btn p {
-    font-family: 'Bentham', serif; }
-  .product--text h2 {
-    margin: 0 0 47px 38px;
-    font-size: 13px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #c51616;
-    letter-spacing: 0.2em; }
-  .product--text p {
-    height: 125px;
-    margin: 0 0 0 36px;
-    font-family: 'Playfair Display', serif;
-    color: #8d8d8d;
-    line-height: 1.7em;
-    font-size: 15px;
-    font-weight: lighter;
-    overflow: hidden;
-    overflow: scroll;
-    overflow-X: hidden; }
+    .product--text h2 {
+      margin: 0 0 47px 38px;
+      font-size: 13px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #c51616;
+      letter-spacing: 0.2em; }
+    .product--text p {
+      height: 125px;
+      margin: 0 36px 0 36px;
+      font-family: 'Playfair Display', serif;
+      color: #8d8d8d;
+      line-height: 1.7em;
+      font-size: 15px;
+      font-weight: lighter;
+      overflow: hidden;
+      overflow: scroll;
+      overflow-X: hidden; }
   .product__price--btn {
     height: 103px;
     width: 327px;
@@ -872,7 +872,7 @@ textarea {
     background-color: #faebd7;
     color: #4b4c4d; } }
 
-@media (min-width: 1239px) and (max-width: 1671px) {
+@media (min-width: 1239px) and (max-width: 1940px) {
   .textos {
     display: flex;
     text-align: center;
