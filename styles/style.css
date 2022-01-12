@@ -11,8 +11,7 @@
   font-family: 'Mulish', sans-serif; }
 
 html {
-  scroll-behavior: smooth;
-  font-size: 18px; }
+  scroll-behavior: smooth; }
 
 /* Scrollbar */
 ::-webkit-scrollbar {
@@ -266,6 +265,24 @@ nav a:hover::after {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.5s; }
 
+.img__wrap--bottom {
+  position: relative;
+  height: 330px;
+  width: 200px; }
+  .img__wrap--bottom:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0 2px 0 2px;
+    pointer-events: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.5s; }
+
 .img__description {
   position: absolute;
   top: 0;
@@ -298,12 +315,6 @@ carousel-container {
 /* Venta */
 .body__venta {
   background-color: #14213d; }
-
-.text-center {
-  font-size: 20px;
-  text-align: center;
-  justify-content: center;
-  align-items: center; }
 
 .wrapper {
   display: flex;
@@ -476,7 +487,7 @@ textarea {
   height: 500px;
   background: #ff0000;
   overflow: hidden;
-  background: linear-gradient(to top, #292457, #292457, #292457) no-repeat center/cover;
+  background: linear-gradient(to top, #0f0c29, #302b63, #24243e) no-repeat center/cover;
   border-radius: 10px;
   box-shadow: 5px 20px 50px #000; }
 
@@ -830,7 +841,8 @@ textarea {
     position: relative;
     padding: 40px 0;
     background-color: #faebd7;
-    color: #4b4c4d; } }
+    color: #4b4c4d;
+    overflow: hidden; } }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .textos {
