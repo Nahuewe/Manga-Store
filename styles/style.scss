@@ -301,27 +301,6 @@ nav {
 
 .img__wrap {
 	position: relative;
-	height: 325px;
-	width: 200px;
-  
-	&:hover .img__description {
-		visibility: visible;
-		opacity: 1;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		font-family: Arial, Helvetica, sans-serif;
-		font-size: 15px;
-		padding: 0 2px 0 2px;
-		pointer-events: none;
-		-webkit-transition-duration: 0.3s;
-		transition-duration: 0.5s;
-	}
-}
-  
-.img__wrap--bottom {
-	position: relative;
 	height: 330px;
 	width: 200px;
   
