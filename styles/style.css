@@ -637,18 +637,14 @@ textarea {
     -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15); }
   .product--img {
-    float: left;
-    height: 420px;
-    width: 327px;
     display: none; }
     .product--img img {
-      border-radius: 7px 0 0 7px;
       display: none; }
   .product--info {
     float: left;
     height: 420px;
     width: 327px;
-    border-radius: 0 7px 10px 7px;
+    border-radius: 7px 7px 7px 7px;
     background-color: #ffffff; }
   .product--price-btn p {
     font-family: 'Bentham', serif; }

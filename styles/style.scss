@@ -786,13 +786,9 @@ textarea {
 	}
   
 	.product--img {
-		float: left;
-		height: 420px;
-		width: 327px;
 		display: none;
 	
 		img {
-			border-radius: 7px 0 0 7px;
 			display: none;
 		}
 	}
@@ -801,7 +797,7 @@ textarea {
 		float: left;
 		height: 420px;
 		width: 327px;
-		border-radius: 0 7px 10px 7px;
+		border-radius: 7px 7px 7px 7px;
 		background-color: #ffffff;
 	}
   
