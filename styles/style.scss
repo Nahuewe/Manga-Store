@@ -111,8 +111,8 @@ nav {
 	-webkit-transform: perspective(1px) translateZ(0);
 	transform: perspective(1px) translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	-webkit-transition-duration: 0.3s;
-	transition-duration: 0.3s;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
 	-webkit-transition-property: transform;
 	transition-property: transform;
   
@@ -297,6 +297,11 @@ nav {
 		-webkit-transform: scale(2);
 		transform: scale(2);
 	}
+}
+
+.card-img-top {
+	width: 196px;
+	height: 245px;
 }
 
 .img__wrap {
