@@ -1,4 +1,4 @@
-<h1 align="center"> 📚 manga-store 📚 </h1>
+<h1 align="center"> 📚 Manga-Store 📚 </h1>
 
 <p align="center">Espacio en el que desarrollo la entrega final para el curso de Desarrollo Web.</p>
 
