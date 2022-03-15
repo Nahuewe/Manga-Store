@@ -1,6 +1,6 @@
 <h1 align="center"> 📚 Manga-Store 📚 </h1>
 
-<p align="center">Espacio en el que desarrollo la entrega final para el curso de Desarrollo Web.</p>
+<p align="center">Trabajo final para el curso de Desarrollo Web en CoderHouse - Camada 23500</p>
 
 <h2 align="center">Cosas que he aprendido</h2>
 
