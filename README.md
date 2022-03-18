@@ -4,6 +4,10 @@
 
 <p align="center">→ <a href="https://www.coderhouse.com/certificados/61df52085edf88005035450a">Certificado final</a> ←</p>
 
+<p align="center">Profesor - Martin Manriquez.</p>
+
+<p align="center">Tutor - Dario Pirozzo.</p>
+
 <h2 align="center">Cosas que he aprendido</h2>
 
 -HTML.
